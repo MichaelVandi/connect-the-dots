@@ -1,6 +1,6 @@
 # Connect The Dots
 
-++Background:++ Hey! So I wanted to make a simple visual representation of the relationship between columns in a dataset. I couldn't find anything around the internet so I made this app. It simply renders
+Hey! So I wanted to make a simple visual representation of the relationship between columns in a dataset. I couldn't find anything around the internet so I made this app. It simply renders
 dots and connects them (if you want).
 
 ## Dot Props
