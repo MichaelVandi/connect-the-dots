@@ -1,26 +1,19 @@
-# CIAT
+# Connect The Dots
 
-We built CIAT in response to the University System of Maryland's COVID-19 app challenge.
-The idea is to build an app that helps people feel safe to return to work as Maryland begins to
-reopen.
+++Background:++ Hey! So I wanted to make a simple visual representation of the relationship between columns in a dataset. I couldn't find anything around the internet so I made this app. It simply renders
+dots and connects them (if you want).
 
-## Features
+## Dot Props
 
-- Anonymous Contact Tracing using the DP-3T algorithm
-- Active GIS mapping of COVID-19 in all zip codes and cities in Maryland
-- Localized Statistics tailored to your city
-- Links to valuable resources
+- Color (Hex Code)
+- Size (Number)
+- Column (String) -> The column this dot represents in the dataset.
+- Question (String) -> The survey question this column Answers
 
-## Tech Stack
+## Pop Up
 
-- React Native
-- Javascipt
-- SQl
+When a dot is hovered over, a pop up is shown containing the column and survey question this dot represents.
 
-## Team Members
+## Future
 
-- Olubukola Akanbi
-- Charles Chase
-- Stephanie Parey
-- Michael Vandi
-- Giovanni Vincenti (Supervisor)
+Would like to make this a lot more customizable
